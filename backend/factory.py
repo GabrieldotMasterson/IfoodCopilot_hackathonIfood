@@ -10,15 +10,17 @@ from flask_cors import CORS
 db = SQLAlchemy()
 migrate = Migrate()
 jwt = JWTManager()
+from spectree.models import SecuritySchemeData
+
 api = SpecTree(
     "flask",
-    title="Flask Backend Template",
+    title="Ifood Copilot Backend API",
     version="v1.0",
     path="docs",
     security_schemes=[
         SecurityScheme(
             name="api_key",
-            data={"type": "apiKey", "name": "Authorization", "in": "header"},
+            data=SecuritySchemeData(type="apiKey", name="Authorization", field_in="header"),
         )
     ],
     security={"api_key": []},

@@ -30,9 +30,13 @@ O **iFood Copilot** é uma plataforma analítica e operacional concebida para au
 |:---:|:---:|
 | ![Pedidos](assets/screenshots/orders.png) | ![Estoque](assets/screenshots/inventory.png) |
 
-| Cardápio Digital | Swagger OpenAPI (Flask) |
+| Cardápio Digital | Faturamento & Financeiro |
 |:---:|:---:|
-| ![Cardápio](assets/screenshots/menu.png) | ![Swagger](assets/screenshots/swagger.png) |
+| ![Cardápio](assets/screenshots/menu.png) | ![Financeiro](assets/screenshots/finance.png) |
+
+| Documentação Swagger UI (SpecTree) |
+|:---:|
+| ![Swagger OpenAPI](assets/screenshots/swagger.png) |
 
 ---
 
